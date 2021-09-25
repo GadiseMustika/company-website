@@ -1,0 +1,172 @@
+body{
+    margin: 0 auto;
+    background-color: #dedede ;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: #ffff;
+    margin: auto;
+}
+.logo > a{
+    float: left;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+    font-size: 1.5rem;
+    padding: 19px;
+}
+
+.search{
+    float: right;
+    padding: 19px;
+}
+.clear-fix{
+    clear: both;
+}
+.main-menu{
+    background-color: rgb(2, 86, 86) ;
+}
+.main-menu > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu > ul > li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 19px;
+    font-family: arial;
+    font-size: smaller;
+}
+/* page */
+.content img{
+    max-width: 100%;
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+/* drop */
+.drop{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: none;
+    z-index: 9999;
+}
+
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-family: arial;
+    font-size: smaller;
+    background-color: rgba(40, 40, 40, 0.975) ;
+}
+.drop > li > a:hover{
+    background-color: orange;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+/* banner */
+.banner{
+    width: 1000px;
+    height: 666.25px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/* content holder */
+.content-holder{
+    background-color: rgb(21, 73, 73);
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content h1{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+.content p{
+    font-size: small;
+    font-family: sans-serif;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: white;
+}
+.sidebar ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+.sidebar > ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.main-footer{
+    background-color: rgba(36, 36, 36, 0.974);
+    color: #ffff;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-box > ul > li > a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+address p{
+    font-size: small;
+}
+.footer-box  address  a{
+    color: teal;
+    font-size: small;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+}
+.copy p{
+    margin: 0;
+}
